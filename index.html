@@ -108,6 +108,7 @@ const ALL_SURVEYS = [
   {name:'Real Time Big Data',dateStr:'5/5',  ts:new Date(2026,4,5),   lula:49.4, flavio:50.6},
   {name:'Ideia/Meio',        dateStr:'6/5',  ts:new Date(2026,4,6),   lula:44.7, flavio:45.3},
   {name:'Ideia/Meio',        dateStr:'28/5', ts:new Date(2026,4,28),  lula:46.5, flavio:41.4},
+  {name:'Ideia/Meio',        dateStr:'8/7',  ts:new Date(2026,6,8),   lula:45.0, flavio:40.0},
   {name:'Quaest',            dateStr:'13/5', ts:new Date(2026,4,13),  lula:42.0, flavio:41.0},
   {name:'Datafolha',         dateStr:'17/5', ts:new Date(2026,4,17),  lula:45.0, flavio:45.0},
   {name:'AtlasIntel',        dateStr:'19/5', ts:new Date(2026,4,19),  lula:48.9, flavio:41.8},
@@ -209,7 +210,7 @@ function rebuildChart() {
           type:'time',
           time:{ unit:'month', tooltipFormat:'dd/MM' },
           min: new Date(2026,0,1),
-          max: new Date(2026,6,5),
+          max: new Date(2026,6,20),
           grid:{color:'rgba(255,255,255,0.06)'},
           ticks:{
             color:'#888',
