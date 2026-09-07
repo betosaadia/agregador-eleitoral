@@ -127,6 +127,8 @@ const ALL_SURVEYS = [
   {name:'Quaest',            dateStr:'14/8', ts:new Date(2026,7,14),  lula:43.0, flavio:40.0},
   {name:'Quaest',            dateStr:'2/9',  ts:new Date(2026,8,2),   lula:42.0, flavio:41.0},
   {name:'Datafolha',         dateStr:'3/9',  ts:new Date(2026,8,3),   lula:46.0, flavio:44.0},
+  {name:'Real Time Big Data',dateStr:'1/9',  ts:new Date(2026,8,1),   lula:44.0, flavio:44.0},
+  {name:'Futura/Apex',       dateStr:'3/9',  ts:new Date(2026,8,3),   lula:45.2, flavio:45.6},
 ];
 ALL_SURVEYS.sort((a,b)=>a.ts-b.ts);
 const INSTITUTES = [...new Set(ALL_SURVEYS.map(s=>s.name))];
