@@ -134,6 +134,9 @@ const ALL_SURVEYS = [
   {name:'AtlasIntel',        dateStr:'10/9', ts:new Date(2026,8,10),  lula:46.0, flavio:46.0},
   {name:'AtlasIntel',        dateStr:'17/9', ts:new Date(2026,8,17),  lula:46.8, flavio:47.2},
   {name:'Quaest',            dateStr:'21/9', ts:new Date(2026,8,21),  lula:41.0, flavio:42.0},
+  {name:'AtlasIntel',        dateStr:'23/9', ts:new Date(2026,8,23),  lula:47.7, flavio:47.4},
+  {name:'Datafolha',         dateStr:'24/9', ts:new Date(2026,8,24),  lula:47.0, flavio:45.0},
+  {name:'Real Time Big Data',dateStr:'24/9', ts:new Date(2026,8,24),  lula:44.0, flavio:45.0},
 ];
 ALL_SURVEYS.sort((a,b)=>a.ts-b.ts);
 const INSTITUTES = [...new Set(ALL_SURVEYS.map(s=>s.name))];
@@ -225,7 +228,7 @@ function rebuildChart() {
           type:'time',
           time:{ unit:'month', tooltipFormat:'dd/MM' },
           min: new Date(2026,0,1),
-          max: new Date(2026,9,5),
+          max: new Date(2026,9,10),
           grid:{color:'rgba(255,255,255,0.06)'},
           ticks:{
             color:'#888',
