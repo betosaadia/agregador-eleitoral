@@ -50,7 +50,7 @@ h2 { font-size: 36px; font-weight: 700; color: #f0f0f0; margin-bottom: 6px; }
     <p class="subtitle">TRADENEWS É O MAIOR CANAL DE WHATSAPP DO MERCADO FINANCEIRO.</p>
   </div>
 </div>
-<p class="obs">Institutos: Quaest, Datafolha, Ideia/Meio, AtlasIntel, Real Time Big Data, Futura/Apex</p>
+<p class="obs">Institutos: Quaest, Datafolha, Ideia/Meio, AtlasIntel, Real Time Big Data, Futura/Apex, BTG/Nexus</p>
 <div class="section-label">Candidatos</div>
 <div class="toggle-btns">
   <button class="toggle-btn active-lula"   id="btn-lula"   onclick="toggleCandidate('lula')">
@@ -138,6 +138,18 @@ const ALL_SURVEYS = [
   {name:'AtlasIntel',        dateStr:'29/9', ts:new Date(2026,8,29),  lula:47.6, flavio:47.7},
   {name:'Ideia/Meio',        dateStr:'30/9', ts:new Date(2026,8,30),  lula:48.5, flavio:48.0},
   {name:'Real Time Big Data',dateStr:'1/10', ts:new Date(2026,9,1),   lula:49.0, flavio:51.0},
+  {name:'BTG/Nexus',         dateStr:'29/3', ts:new Date(2026,2,29),  lula:46.0, flavio:46.0},
+  {name:'BTG/Nexus',         dateStr:'26/4', ts:new Date(2026,3,26),  lula:46.0, flavio:45.0},
+  {name:'BTG/Nexus',         dateStr:'14/6', ts:new Date(2026,5,14),  lula:49.0, flavio:43.0},
+  {name:'BTG/Nexus',         dateStr:'28/6', ts:new Date(2026,5,28),  lula:47.0, flavio:44.0},
+  {name:'BTG/Nexus',         dateStr:'12/7', ts:new Date(2026,6,12),  lula:47.0, flavio:44.0},
+  {name:'BTG/Nexus',         dateStr:'2/8',  ts:new Date(2026,7,2),   lula:46.0, flavio:45.0},
+  {name:'BTG/Nexus',         dateStr:'16/8', ts:new Date(2026,7,16),  lula:47.0, flavio:44.0},
+  {name:'BTG/Nexus',         dateStr:'23/8', ts:new Date(2026,7,23),  lula:46.0, flavio:45.0},
+  {name:'BTG/Nexus',         dateStr:'30/8', ts:new Date(2026,7,30),  lula:46.0, flavio:45.0},
+  {name:'BTG/Nexus',         dateStr:'7/9',  ts:new Date(2026,8,7),   lula:45.0, flavio:46.0},
+  {name:'BTG/Nexus',         dateStr:'20/9', ts:new Date(2026,8,20),  lula:46.0, flavio:45.0},
+  {name:'BTG/Nexus',         dateStr:'27/9', ts:new Date(2026,8,27),  lula:46.0, flavio:44.0},
 ];
 ALL_SURVEYS.sort((a,b)=>a.ts-b.ts);
 const INSTITUTES = [...new Set(ALL_SURVEYS.map(s=>s.name))];
