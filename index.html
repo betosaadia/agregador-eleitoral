@@ -50,7 +50,7 @@ h2 { font-size: 36px; font-weight: 700; color: #f0f0f0; margin-bottom: 6px; }
     <p class="subtitle">TRADENEWS É O MAIOR CANAL DE WHATSAPP DO MERCADO FINANCEIRO.</p>
   </div>
 </div>
-<p class="obs">Institutos: Quaest, Datafolha, Ideia/Meio, AtlasIntel, Real Time Big Data, Futura/Apex, BTG/Nexus</p>
+<p class="obs">Institutos: Quaest, Datafolha, Ideia/Meio, AtlasIntel, Real Time Big Data, Futura/Apex, BTG/Nexus, PoderData</p>
 <div class="section-label">Candidatos</div>
 <div class="toggle-btns">
   <button class="toggle-btn active-lula"   id="btn-lula"   onclick="toggleCandidate('lula')">
@@ -153,6 +153,16 @@ const ALL_SURVEYS = [
   {name:'BTG/Nexus',         dateStr:'7/9',  ts:new Date(2026,8,7),   lula:45.0, flavio:46.0},
   {name:'BTG/Nexus',         dateStr:'20/9', ts:new Date(2026,8,20),  lula:46.0, flavio:45.0},
   {name:'BTG/Nexus',         dateStr:'27/9', ts:new Date(2026,8,27),  lula:46.0, flavio:44.0},
+  {name:'PoderData',         dateStr:'28/5', ts:new Date(2026,4,28),  lula:44.0, flavio:42.0},
+  {name:'PoderData',         dateStr:'24/6', ts:new Date(2026,5,24),  lula:46.0, flavio:43.0},
+  {name:'PoderData',         dateStr:'15/7', ts:new Date(2026,6,15),  lula:45.0, flavio:43.0},
+  {name:'PoderData',         dateStr:'28/7', ts:new Date(2026,6,28),  lula:46.0, flavio:43.0},
+  {name:'PoderData',         dateStr:'12/8', ts:new Date(2026,7,12),  lula:46.0, flavio:45.0},
+  {name:'PoderData',         dateStr:'2/9',  ts:new Date(2026,8,2),   lula:44.0, flavio:45.0},
+  {name:'PoderData',         dateStr:'16/9', ts:new Date(2026,8,16),  lula:44.0, flavio:46.0},
+  {name:'PoderData',         dateStr:'23/9', ts:new Date(2026,8,23),  lula:45.0, flavio:46.0},
+  {name:'PoderData',         dateStr:'2/10', ts:new Date(2026,9,2),   lula:50.0, flavio:50.0},
+  {name:'PoderData',         dateStr:'7/10', ts:new Date(2026,9,7),   lula:47.0, flavio:53.0},
 ];
 ALL_SURVEYS.sort((a,b)=>a.ts-b.ts);
 const INSTITUTES = [...new Set(ALL_SURVEYS.map(s=>s.name))];
