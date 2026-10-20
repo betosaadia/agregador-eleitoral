@@ -169,6 +169,9 @@ const ALL_SURVEYS = [
   {name:'Quaest',            dateStr:'13/10',ts:new Date(2026,9,13),  lula:44.0, flavio:46.0},
   {name:'Datafolha',         dateStr:'15/10',ts:new Date(2026,9,15),  lula:49.0, flavio:51.0},
   {name:'PoderData',         dateStr:'16/10',ts:new Date(2026,9,16),  lula:50.0, flavio:50.0},
+  {name:'AtlasIntel',        dateStr:'19/10',ts:new Date(2026,9,19),  lula:48.9, flavio:51.1},
+  {name:'PoderData',         dateStr:'19/10',ts:new Date(2026,9,19),  lula:48.0, flavio:52.0},
+  {name:'Real Time Big Data',dateStr:'20/10',ts:new Date(2026,9,20),  lula:48.0, flavio:52.0},
 ];
 ALL_SURVEYS.sort((a,b)=>a.ts-b.ts);
 const INSTITUTES = [...new Set(ALL_SURVEYS.map(s=>s.name))];
